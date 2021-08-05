@@ -1,17 +1,8 @@
 # MachineLearning-DataCleaning
 # Machine Learning Fundamentals - Data Cleaning
 In data science the scientists have to do most of work dealing with the data manipulation , data formatting related to data mining. Therefore it is about 60% of the total time. Handling missing values are a crucial thing in the data science because it is highly impact on the accuracy of the model. 
-## Reasons for missing values
-In data mining a major effort have to done when dealing with the missing values of a dataset. Missing values are a common in a dataset but removing or applying values making a huge impact on the accuracy of the model. Let's consider the causes for having missing values in the datasets. One of the issues can be when the data is collected the participants may not fill the entire fields about in the survey. Further in the given surveys the questions sometimes may not clearly understand the participants which also causes missing values are added to the dataset. Here we consider the facts when the datasets are created using the survey having targeted audience for the survey. Another reason for the missing values in the data set is data entering happened as an accident. 
-## Different types of missing values present in datasets
-There are different types of missing values can be found in a dataset. They can be divided by the following definitions. Those can be 
-1. MCAR - Missing Completely At Random. Missing values without any reason or pattern. Also have no association with other factors. 
-2. MAR - Missing At Random. These values may have some linear relationship to any other feature of the dataset. 
-3. MNAR - Missing Not At Random. These missing values are missing for specific reason but eventually the logic for the missing values can be identified. 
-
-## What should be done with the missing values
-Missing values can be avoided by simply deleting the each records having missing values but as a drawback the dataset may be become considerably small compared to the earlier dataset with missing values present. Therefore if there is considerable amount of missing values in the dataset, deleting the missing value records are not be the convenient way. As a result of the above reasons, if the dataset becomes smaller. Then it will be difficult to produce an accurate predictive model. In general for larger dataset if a column have lost 30 to 40 percent data missing. Then they can be omitted from the dataset. But for smaller we can suggest if 20% of data is missing, then those columns can be removed from the dataset. But it is better to keep remind that this approach can not be same for every scenarios. But when deleting the columns it is required to check weather the column is not having a higher correlation to the target labels as well. Otherwise it will cause information loss. 
-An answer for the above passage in data science we can impute values for missing values but that also may cause not to developing accurate predictive models. Therefore business logic and statistics are used for such situations. 
-## Business logic for imputing missing values
-Business logic basically means a technique/techniques  that rely on business implications or business understandings for solving a problem instead of using sophisticated or traditional ways for imputing missing values. Further there are statistical methods for implementing the business logic for missing values. Some from those are Mean, Median and Mode. 
-A practical scenario on How to dealing with missing values are present here in the repository
+### Following Topics are covered in this Repository
+1. Reasons for missing values
+2. Different types of missing values present in datasets
+3. What should be done with the missing values
+4. Business logic for imputing missing values
